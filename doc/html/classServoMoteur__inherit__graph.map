@@ -1,0 +1,4 @@
+<map id="ServoMoteur" name="ServoMoteur">
+<area shape="rect" id="node3" href="$classServoDyn.html" title="Classe de gestion des servomoteur Dynamixel." alt="" coords="5,366,144,746"/>
+<area shape="rect" id="node5" href="$classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion..." alt="" coords="168,375,312,737"/>
+</map>

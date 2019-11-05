@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Tête Robotisée Josiane:  Fichier source de brain.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Tête Robotisée Josiane
+   &#160;<span id="projectnumber">3.05</span>
+   </div>
+   <div id="projectbrief">Ce projet a été créer par la Team Josiane des BTS IRIS du Lycée Turgot à Limoges, Messieurs Florent Chaumette, Kevin Stobner, Nicolas Louis, Thomas Veites</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">brain.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="brain_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef _BRAIN_</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define _BRAIN_</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ears_8h.html">ears.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="CVoix_8h.html">CVoix.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Neck_8h.html">Neck.h</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Eye_8h.html">Eye.h</a>&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;ctime&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="code" href="classBrain.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBrain.html" title="Pilotage complet de la tête robotisée.">Brain</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="classBrain.html#a4f4c07bbbafa0dedb7ff9f10ca1d7868">   36</a></span>&#160;                <span class="keyword">enum class</span> <a class="code" href="classBrain.html#a4f4c07bbbafa0dedb7ff9f10ca1d7868">Ordre</a> </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                        GAUCHE, </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                        DROITE, </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        HAUT, </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        BAS, </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            CENTRE, </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                        STOP, </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                        AUREVOIR,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                        BONJOUR, </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                        HEURE, </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        DATE, </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        CONCEPTEUR, </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        PRESENTATION, </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        BLAGUE, </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        RIEN, </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                        APPEL, </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                        TERMINER, </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                };</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="classBrain.html#a82125f905d6b64d140e9a935a6eb6354">   64</a></span>&#160;                <span class="keyword">enum class</span> <a class="code" href="classBrain.html#a82125f905d6b64d140e9a935a6eb6354">Language</a> </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                        FR, </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                        FRmod, </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                        EN </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                };</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="code" href="classBrain.html#aacb288526b49e9fe530b1b3012bff309">   75</a></span>&#160;                <a class="code" href="classEars.html" title="Oreille pour la tête robotisée (SpeechToText)">Ears</a>* <a class="code" href="classBrain.html#aacb288526b49e9fe530b1b3012bff309" title="Objet representant la partie Oreille (Reconnaissance Vocale)">myEars</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="classBrain.html#a7e3168aec24d2f54dfba9b7f720902a4">   78</a></span>&#160;                <a class="code" href="classCVoix.html" title="Classe permettant le TextToSpeech.">CVoix</a>* <a class="code" href="classBrain.html#a7e3168aec24d2f54dfba9b7f720902a4" title="Objet representatn la partie Voix (TextToSpeech)">vox</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="classBrain.html#ab47716c1ab6cec99bcf07b178614e8c5">   81</a></span>&#160;        <a class="code" href="classNeck.html" title="Classe de gestion du cou à partir de la classe ServoDyn.">Neck</a>* <a class="code" href="classBrain.html#ab47716c1ab6cec99bcf07b178614e8c5" title="Objet representatn la partie Cou (Servomoteurs Dynamixels)">myNeck</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="code" href="classBrain.html#a684040fc16f1a8fec2e52100f1262b03">   84</a></span>&#160;        <a class="code" href="classEye.html" title="Cette classe permet de contrôler les yeux de la tête du robot.">Eye</a>* <a class="code" href="classBrain.html#a684040fc16f1a8fec2e52100f1262b03" title="Objet representatn la partie des Yeux (Caméras HD)">myEye</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <span class="comment">/**********************************/</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="comment">/* INSERER ICI LES AUTRES MODULES */</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="comment">/**********************************/</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="code" href="classBrain.html#a3e41d1272191f1ff04884156ddc6c758">   91</a></span>&#160;                <a class="code" href="classBrain.html#a82125f905d6b64d140e9a935a6eb6354">Language</a> <a class="code" href="classBrain.html#a3e41d1272191f1ff04884156ddc6c758" title="Variable contenant la langue qui a été definit.">theLang</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="code" href="classBrain.html#a7ee7ff481327112514792c710c8ca2e0">   94</a></span>&#160;                std::string <a class="code" href="classBrain.html#a7ee7ff481327112514792c710c8ca2e0" title="Variable de la dernière chaine entendu par Ears.">word</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="code" href="classBrain.html#adc28e094024586f9557e11f9b97577a1">   97</a></span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="classBrain.html#adc28e094024586f9557e11f9b97577a1" title="Variable de l&#39;init.">initOK</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="code" href="classBrain.html#a09f56d8134a56b60f32511391e0f5a0d">  100</a></span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="classBrain.html#a09f56d8134a56b60f32511391e0f5a0d" title="Variable permettant de savoir si les gestes parasites doivent être executé">gestePara</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="classBrain.html#a1c90d2b31247b7c2a72a8b8c324e7701">  103</a></span>&#160;                time_t <a class="code" href="classBrain.html#a1c90d2b31247b7c2a72a8b8c324e7701" title="Variable pour calculer le temps.">timer</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="code" href="classBrain.html#a92030c171753c4a1b7d313b0d44769fe">  105</a></span>&#160;                <span class="keyword">struct </span>tm * <a class="code" href="classBrain.html#a92030c171753c4a1b7d313b0d44769fe" title="Structure contenant la date d&#39;aujourd&#39;hui.">timeinfo</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="code" href="classBrain.html#a7bfd3cbce933f3dd7419b27e06761702">  107</a></span>&#160;                <span class="keywordtype">char</span> <a class="code" href="classBrain.html#a7bfd3cbce933f3dd7419b27e06761702" title="Buffer contenant la date.">buffer</a> [50];</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                std::vector&lt;std::string&gt; <a class="code" href="classBrain.html#a1dffa3007c2e443f0cfe7a15fb8a31b1" title="Decouper une chaine.">splitString</a>(std::string maChaine, std::string delim);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                std::string <a class="code" href="classBrain.html#aa7d558a90623e0452fde36d8adf293c2" title="Conversion d&#39;un jour en Français.">convertDayFR</a>(std::string dayEN);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                std::string <a class="code" href="classBrain.html#a7b1ac0f98baf8dbec80ccff5884194eb" title="Conversion d&#39;un mois en Français.">convertMonthFR</a>(std::string dayEN);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <span class="keywordtype">int</span> <a class="code" href="classBrain.html#ad67e8247c22c19f882ab4c28be025d8c" title="Générateur de chiffre aléatoires.">random</a>(<span class="keywordtype">int</span> min, <span class="keywordtype">int</span> max);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <a class="code" href="classBrain.html#a92daf9737361454abbb5988a89b7ff40" title="Constructeur par defaut de la classe Brain.">Brain</a>();</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                <a class="code" href="classBrain.html#a92daf9737361454abbb5988a89b7ff40" title="Constructeur par defaut de la classe Brain.">Brain</a>(<a class="code" href="classBrain.html#a82125f905d6b64d140e9a935a6eb6354">Language</a> <a class="code" href="classBrain.html#a3e41d1272191f1ff04884156ddc6c758" title="Variable contenant la langue qui a été definit.">theLang</a>);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                <a class="code" href="classBrain.html#af41db0fbf20565d17d36bad299ae0cac" title="Destructeur de la classe Brain.">~Brain</a>();</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="classBrain.html#aa7c34a870197357c04e68dd0316d41b7" title="Initialise les Objets.">init</a>();</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="classBrain.html#affb70af242ad80ff7f30fa4fd33d38b2" title="Permet de modifier la langue.">setLangue</a>(<a class="code" href="classBrain.html#a82125f905d6b64d140e9a935a6eb6354">Language</a> myLang);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                <a class="code" href="classBrain.html#a4f4c07bbbafa0dedb7ff9f10ca1d7868">Ordre</a> <a class="code" href="classBrain.html#a3ed7ac7e8bb0c2883478fc12cd612f4d" title="Interprete une phrase pour retourner un geste.">interprete</a>();</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="classBrain.html#a435c65dc21be239a8a8f14d200353c25" title="Execute l&#39;ordre passé en parametre.">doOrder</a>(<a class="code" href="classBrain.html#a4f4c07bbbafa0dedb7ff9f10ca1d7868">Ordre</a> myOrder);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                <span class="keywordtype">bool</span> <a class="code" href="classBrain.html#a6bd5040022eb4b3560d794f769e61887" title="Fait une ecoute du millieu.">listen</a>();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="classBrain.html#ad7f5ff1aff943cd5bbbe2c345e67aa08" title="Lit le texte qui lui ai passé">play</a>(std::string msg);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                <span class="comment">/*std::string getOutput();*/</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="classBrain.html#a0acb0be2a7e2457d1a8efa6c47d180da" title="Fait les gestes parasites.">doGesteParasite</a>();</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;};</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">#endif </span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span><span class="comment">/* _BRAIN_ */</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche Juin 14 2015 18:38:08 pour Tête Robotisée Josiane par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>

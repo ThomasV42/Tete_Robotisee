@@ -1,0 +1,4 @@
+<map id="ServoMoteurRC" name="ServoMoteurRC">
+<area shape="rect" id="node2" href="$classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet." alt="" coords="5,6,136,317"/>
+<area shape="rect" id="node4" href="$classserialib.html" title="Classe utilisé pour la voie série." alt="" coords="160,15,331,308"/>
+</map>

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Tête Robotisée Josiane:  Fichier source de Neck.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Tête Robotisée Josiane
+   &#160;<span id="projectnumber">3.05</span>
+   </div>
+   <div id="projectbrief">Ce projet a été créer par la Team Josiane des BTS IRIS du Lycée Turgot à Limoges, Messieurs Florent Chaumette, Kevin Stobner, Nicolas Louis, Thomas Veites</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Neck.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Neck_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifndef NECK_H</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define NECK_H</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ServoDyn_8h.html">ServoDyn.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classNeck.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classNeck.html" title="Classe de gestion du cou à partir de la classe ServoDyn.">Neck</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="classNeck.html#a7fe969cb12769a787f9ef14eb2cec3fa">   22</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="classNeck.html#a7fe969cb12769a787f9ef14eb2cec3fa">servo</a> {HAUT, BAS, GAUCHE, DROITE};</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="classNeck.html#aedcb6befde4c32ece605ddef55c6e9e8">   25</a></span>&#160;    <a class="code" href="classserialib.html" title="Classe utilisé pour la voie série.">serialib</a> <a class="code" href="classNeck.html#aedcb6befde4c32ece605ddef55c6e9e8" title="(Voie Série) objet serialib permetant la gestion de la voie série dans le programme">vs</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="classNeck.html#a550f912eac74a842fa717edaa0efd2b2">   28</a></span>&#160;    <a class="code" href="classServoDyn.html" title="Classe de gestion des servomoteur Dynamixel.">ServoDyn</a> *<a class="code" href="classNeck.html#a550f912eac74a842fa717edaa0efd2b2" title="Objet servomoteur disignant le servormoteur de droite, le 1.">servd</a>;    <span class="comment">//servomoteur droite</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="classNeck.html#a7fb91e8242f37cd2ad992d579522299e">   31</a></span>&#160;    <a class="code" href="classServoDyn.html" title="Classe de gestion des servomoteur Dynamixel.">ServoDyn</a> *<a class="code" href="classNeck.html#a7fb91e8242f37cd2ad992d579522299e" title="Objet servomoteur disignant le servormoteur du milieu, le 2.">servm</a>;    <span class="comment">//servomoteur milieu</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="code" href="classNeck.html#a9e1e2e625597daeef9a84526594bd303">   34</a></span>&#160;    <a class="code" href="classServoDyn.html" title="Classe de gestion des servomoteur Dynamixel.">ServoDyn</a> *<a class="code" href="classNeck.html#a9e1e2e625597daeef9a84526594bd303" title="Objet servomoteur disignant le servormoteur de gauche, le 2.">servg</a>;    <span class="comment">//servomoteur gauche</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="classNeck.html#ace173e7400c67e2e31910b8caf7b27f3">   37</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classNeck.html#ace173e7400c67e2e31910b8caf7b27f3" title="Entier constant idiquant la position maximale du servomoteur 1.">angleDMax</a> = 215;        <span class="comment">//angle de butée maximal du servomoteur droite</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="classNeck.html#aa1e1abd0ae8191aa63204da2ff489aa6">   40</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classNeck.html#aa1e1abd0ae8191aa63204da2ff489aa6" title="Entier constant idiquant la position maximale du servomoteur 2.">angleMMax</a> = 240;        <span class="comment">//angle de butée maximal du servomoteur milieu</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="classNeck.html#ab82ea61adff9e89a6e2efb1b03e39355">   43</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classNeck.html#ab82ea61adff9e89a6e2efb1b03e39355" title="Entier constant idiquant la position maximale du servomoteur 3.">angleGMax</a> = 145;        <span class="comment">//angle de butée maximal du servomoteur gauche</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="classNeck.html#ae9754abec456b2ad728a91da858070d8">   46</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classNeck.html#ae9754abec456b2ad728a91da858070d8" title="Entier constant idiquant la position minimale du servomoteur 1.">angleDMin</a> = 175;        <span class="comment">//angle de butée minimal du servomoteur droite</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="classNeck.html#a0e3e6efca9e6676e1599b64b1d1cb941">   49</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classNeck.html#a0e3e6efca9e6676e1599b64b1d1cb941" title="Entier constant idiquant la position minimale du servomoteur 2.">angleMMin</a> = 110;        <span class="comment">//angle de butée minimal du servomoteur milieu</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="classNeck.html#aa43b941c0cc2eaad6e470ee6be67867a">   52</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classNeck.html#aa43b941c0cc2eaad6e470ee6be67867a" title="Entier constant idiquant la position minimale du servomoteur 3.">angleGMin</a> = 185;        <span class="comment">//angle de butée minimal du servomoteur gauche</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="classNeck.html#a3245a9ffe9ce3911aa3897877f9cb34a" title="Constructeur de la classe Neck.">Neck</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="classNeck.html#ab17daf03ea12fadfe99a7b464634e828" title="Destructeur de la classe Neck.">~Neck</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#ad5e45908916b9ca0301939ba04b792c7" title="Positionne la tête dans sa position centrale.">init</a>();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#a1ff90aaf68552ec24eb1bc9538308f80" title="Mouvement oui de la tête (haut, bas,...)">Yes</a>();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#a74ab8de5691f2efa057126c09e2b5877" title="Mouvement non de la tête (droite, gauche,...)">No</a>();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#a3b4ca32df60ec13f99e4fa0f7843e3f7" title="Tourne la tête jusqu&#39;à la position droite maximale.">setRight</a>();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#a2d0aac6bd98da7c77075c1634c5258d8" title="Tourne la tête jusqu&#39;à la position gauche maximale.">setLeft</a>();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#abdbde717ad2db96000d2b1a521df359c" title="Monte la tête jusqu&#39;à la position maximale.">setUp</a>();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#a23f8af049853336920b65cb1f2519798" title="Incline la tête jusqu&#39;à la posotion maximale.">setDown</a>();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#aabe7b2813737039fa5edfd8929761d79" title="Positonne la tête droite pour regarder en face.">setCenter</a>();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#ad0bd6cd6db6edbbd920a6b79d142520b" title="Place chacun des servomoteurs dans la position indiquer avec la position entière.">setPos</a>(<span class="keywordtype">int</span> valS1, <span class="keywordtype">int</span> valS2, <span class="keywordtype">int</span> valS3);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#acab832c89dd169840daba575260c1198" title="Place le servomoteur, choisi parmi un énumérateur, dans la position indiquer grâce à un angle...">setServoPos</a>(<a class="code" href="classNeck.html#a7fe969cb12769a787f9ef14eb2cec3fa">servo</a> servomoteur, <span class="keywordtype">int</span> degres);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classNeck.html#a3a7f863769ab57e6e83254efe160b960" title="La tête se déplace aléatoirement pour montrer son activité">Random</a>();</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;};</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">/* NECK_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche Juin 14 2015 18:38:08 pour Tête Robotisée Josiane par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>

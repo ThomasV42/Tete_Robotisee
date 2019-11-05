@@ -1,0 +1,5 @@
+<map id="Neck" name="Neck">
+<area shape="rect" id="node2" href="$classServoDyn.html" title="Classe de gestion des servomoteur Dynamixel." alt="" coords="59,384,197,747"/>
+<area shape="rect" id="node4" href="$classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet." alt="" coords="5,6,136,317"/>
+<area shape="rect" id="node6" href="$classserialib.html" title="Classe utilisé pour la voie série." alt="" coords="160,15,331,308"/>
+</map>

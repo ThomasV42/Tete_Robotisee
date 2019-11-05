@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Tête Robotisée Josiane:  Fichier source de Eye.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Tête Robotisée Josiane
+   &#160;<span id="projectnumber">3.05</span>
+   </div>
+   <div id="projectbrief">Ce projet a été créer par la Team Josiane des BTS IRIS du Lycée Turgot à Limoges, Messieurs Florent Chaumette, Kevin Stobner, Nicolas Louis, Thomas Veites</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Eye.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Eye_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef __OEIL_H__</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __OEIL_H__</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;opencv2/opencv.hpp&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;exception&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">using namespace </span>cv;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">const</span> Scalar_&lt;int&gt; <a class="code" href="Eye_8h.html#ac55b7e4dd18ce59520578fe705442ae7" title="Variable constante pour la couleur des rectangles affichés (correspond au bleu).">COLOR</a>(255,100,0);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="classEye.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEye.html" title="Cette classe permet de contrôler les yeux de la tête du robot.">Eye</a> {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">private</span> :</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="classEye.html#a94792eed98153ab0fef9c2e95b3ff87a">   35</a></span>&#160;    VideoCapture <a class="code" href="classEye.html#a94792eed98153ab0fef9c2e95b3ff87a" title="Variable OpenCv correspondant au flux vidéo.">camera</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="classEye.html#ab827187838398b1fcf5f148320752616">   38</a></span>&#160;    CascadeClassifier <a class="code" href="classEye.html#ab827187838398b1fcf5f148320752616" title="Fichier de détection des têtes sur une image.">classificateurHead</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="classEye.html#a7be6a9de02dd2a297bcab20ff1001339">   41</a></span>&#160;    CascadeClassifier <a class="code" href="classEye.html#a7be6a9de02dd2a297bcab20ff1001339" title="Fichier de détection des yeux sur une image (+ précis, - rapide)">classificateurEye</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="classEye.html#aebf688dab3a51035d7ef1fcc89b5c74a">   44</a></span>&#160;    Mat <a class="code" href="classEye.html#aebf688dab3a51035d7ef1fcc89b5c74a" title="Variable OpenCv contenant des images pouvant être récupérées via le flux vidéo.">image</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="classEye.html#a060dfadc9e0e877548692d5db3676678">   47</a></span>&#160;    vector&lt;Rect&gt; <a class="code" href="classEye.html#a060dfadc9e0e877548692d5db3676678" title="Vecteur contenant les rectangles encadrant les yeux détectés.">tabYeux</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="classEye.html#a65c27d20632258b00584f99778a45d61">   50</a></span>&#160;    vector&lt;Rect&gt; <a class="code" href="classEye.html#a65c27d20632258b00584f99778a45d61" title="Vecteur contenant les rectangles encadrant les visages détectés.">tabVisages</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="classEye.html#a2267ccde15195243f551f23e9973208a">   53</a></span>&#160;    Rect <a class="code" href="classEye.html#a2267ccde15195243f551f23e9973208a" title="Variable contenant le rectangle encadrant le premier visage detecté">visageSeul</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="classEye.html#ad1256d66cc0ca13167ecc11c530a5382">   56</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="classEye.html#ad1256d66cc0ca13167ecc11c530a5382" title="Chaine contenant le chemin vers le fichier Cascade pour les têtes.">cheminCascadeHead</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="code" href="classEye.html#aba27ace8967396c61972c2549cdb1945">   59</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="classEye.html#aba27ace8967396c61972c2549cdb1945" title="Chaine contenant le chemin vers le fichier Cascade pour les yeux.">cheminCascadeEye</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">public</span> :</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    </div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html">   67</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classEye_1_1Eyexception.html" title="Classe d&#39;exception pour la classe Eye.">Eyexception</a> : <span class="keyword">public</span> exception {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">private</span> :</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html#af3ee036b24eb36ec170e68284ecb53b7">   70</a></span>&#160;            <span class="keywordtype">int</span> <a class="code" href="classEye_1_1Eyexception.html#af3ee036b24eb36ec170e68284ecb53b7" title="Code d&#39;erreur. Le premier chiffre correspond à la partie de la tête et les deux derniers corresponden...">codeErreur</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html#a54b827d2114f22c8d236cf5d81210cea">   72</a></span>&#160;            <span class="keyword">const</span> <span class="keywordtype">string</span> partie = <span class="stringliteral">&quot;Eye&quot;</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html#ae0588d32dcea0187b099dcab6679038e">   74</a></span>&#160;            <span class="keywordtype">string</span> <a class="code" href="classEye_1_1Eyexception.html#ae0588d32dcea0187b099dcab6679038e" title="Explicite l&#39;erreur rencontrée.">erreur</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">public</span> :</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html#a8169383927e9fcf1915afad30d254f0b">   83</a></span>&#160;            <a class="code" href="classEye_1_1Eyexception.html#a8169383927e9fcf1915afad30d254f0b" title="Constructeur de la classe Eyexception.">Eyexception</a>(<span class="keywordtype">int</span> nCodeErreur, <span class="keywordtype">string</span> nErreur) noexcept {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                codeErreur = nCodeErreur;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                erreur = nErreur;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            </div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html#a865d7f097c714063712c4d69e4598c29">   96</a></span>&#160;            <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="classEye_1_1Eyexception.html#a865d7f097c714063712c4d69e4598c29" title="Méthode what.">what</a>() const noexcept {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordtype">string</span> temp;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                temp = partie + <span class="stringliteral">&quot; - &quot;</span> + erreur;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keywordflow">return</span> temp.c_str();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="code" href="classEye_1_1Eyexception.html#a772995f6e519db304450836ccfe2a255">  109</a></span>&#160;            <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="classEye_1_1Eyexception.html#a772995f6e519db304450836ccfe2a255" title="Méthode getCode.">getCode</a>() const noexcept {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                <span class="keywordflow">return</span> codeErreur;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    };</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="classEye.html" title="Cette classe permet de contrôler les yeux de la tête du robot.">Eye</a>();  <span class="comment">//NE PAS METTRE DE PARENTHESES !! Eye oeil; &lt;-- BON / Eye oeil(); &lt;-- FAUX</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="comment">//Eye(int device, string nomFichierCascade);</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    ~<a class="code" href="classEye.html" title="Cette classe permet de contrôler les yeux de la tête du robot.">Eye</a>();</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">void</span> init(<span class="keywordtype">int</span> device, <span class="keywordtype">string</span> headCascadePath, <span class="keywordtype">string</span> eyeCascadePath);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    Mat fluxVideo();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    Mat getImage();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    vector&lt;Rect&gt; getVisages();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    Rect getVisage();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    </div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordtype">int</span> getNbrVisagesDetect();</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordtype">void</span> afficherVisagesDetect(<span class="keywordtype">bool</span> SeulVisage, <span class="keywordtype">bool</span> precision);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    </div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordtype">void</span> detectMultiScale(<span class="keywordtype">bool</span> headOrEye);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;};</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche Juin 14 2015 18:38:08 pour Tête Robotisée Josiane par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>

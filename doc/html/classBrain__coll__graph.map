@@ -1,0 +1,9 @@
+<map id="Brain" name="Brain">
+<area shape="rect" id="node2" href="$classCVoix.html" title="Classe permettant le TextToSpeech." alt="" coords="5,961,109,1167"/>
+<area shape="rect" id="node4" href="$classEars.html" title="Oreille pour la tête robotisée (SpeechToText)" alt="" coords="133,865,245,1263"/>
+<area shape="rect" id="node6" href="$classNeck.html" title="Classe de gestion du cou à partir de la classe ServoDyn." alt="" coords="269,848,387,1280"/>
+<area shape="rect" id="node8" href="$classServoDyn.html" title="Classe de gestion des servomoteur Dynamixel." alt="" coords="200,384,339,747"/>
+<area shape="rect" id="node10" href="$classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet." alt="" coords="147,6,277,317"/>
+<area shape="rect" id="node12" href="$classserialib.html" title="Classe utilisé pour la voie série." alt="" coords="301,15,472,308"/>
+<area shape="rect" id="node15" href="$classEye.html" title="Cette classe permet de contrôler les yeux de la tête du robot." alt="" coords="411,874,581,1254"/>
+</map>

@@ -1,0 +1,669 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Tête Robotisée Josiane: Référence de la classe ServoMoteurRC</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Tête Robotisée Josiane
+   &#160;<span id="projectnumber">3.05</span>
+   </div>
+   <div id="projectbrief">Ce projet a été créer par la Team Josiane des BTS IRIS du Lycée Turgot à Limoges, Messieurs Florent Chaumette, Kevin Stobner, Nicolas Louis, Thomas Veites</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&#160;des&#160;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&#160;des&#160;classes</span></a></li>
+      <li><a href="inherits.html"><span>Hiérarchie&#160;des&#160;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&#160;de&#160;classe</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="classServoMoteurRC-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe ServoMoteurRC</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d'impulsions)  
+ <a href="classServoMoteurRC.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="ServoMoteurRC_8h_source.html">ServoMoteurRC.h</a>&gt;</code></p>
+<div class="dynheader">
+Graphe d'héritage de ServoMoteurRC:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServoMoteurRC__inherit__graph.png" border="0" usemap="#ServoMoteurRC_inherit__map" alt="Inheritance graph"/></div>
+<map name="ServoMoteurRC_inherit__map" id="ServoMoteurRC_inherit__map">
+<area shape="rect" id="node2" href="classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet." alt="" coords="12,6,143,317"/></map>
+</div>
+<div class="dynheader">
+Graphe de collaboration de ServoMoteurRC:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServoMoteurRC__coll__graph.png" border="0" usemap="#ServoMoteurRC_coll__map" alt="Collaboration graph"/></div>
+<map name="ServoMoteurRC_coll__map" id="ServoMoteurRC_coll__map">
+<area shape="rect" id="node2" href="classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet." alt="" coords="5,6,136,317"/><area shape="rect" id="node4" href="classserialib.html" title="Classe utilisé pour la voie série." alt="" coords="160,15,331,308"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:aae3c98bfed3174d123c14bb932c49abd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#aae3c98bfed3174d123c14bb932c49abd">TacheRealisee</a> </td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:af4da1bb127225d5a20032738ab385c94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#af4da1bb127225d5a20032738ab385c94">ServoMoteurRC</a> ()</td></tr>
+<tr class="memdesc:af4da1bb127225d5a20032738ab385c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ce constructeur initialise les attributs de l'objet <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a>.  <a href="#af4da1bb127225d5a20032738ab385c94"></a><br/></td></tr>
+<tr class="memitem:aceceadc72aed2799f29085e67b8f4df7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#aceceadc72aed2799f29085e67b8f4df7">ServoMoteurRC</a> (int <a class="el" href="classServoMoteurRC.html#a69d6df74f4ed800c0cf828e6a00c457b">ID</a>)</td></tr>
+<tr class="memdesc:aceceadc72aed2799f29085e67b8f4df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de la classe <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a> avec le numéro du servomoteur souhaité  <a href="#aceceadc72aed2799f29085e67b8f4df7"></a><br/></td></tr>
+<tr class="memitem:ae4410b4eb6409601c0fed6a901ab7b13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#ae4410b4eb6409601c0fed6a901ab7b13">~ServoMoteurRC</a> ()</td></tr>
+<tr class="memdesc:ae4410b4eb6409601c0fed6a901ab7b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur de la classe <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a>.  <a href="#ae4410b4eb6409601c0fed6a901ab7b13"></a><br/></td></tr>
+<tr class="memitem:a0891d3631f2e2eaf1a8010183fd413e0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a0891d3631f2e2eaf1a8010183fd413e0">init</a> (int fileDes)</td></tr>
+<tr class="memdesc:a0891d3631f2e2eaf1a8010183fd413e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction virtuelle d'initialisation.  <a href="#a0891d3631f2e2eaf1a8010183fd413e0"></a><br/></td></tr>
+<tr class="memitem:a4bcd74144a8746bb66af098dbd233093"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a4bcd74144a8746bb66af098dbd233093">arret</a> ()</td></tr>
+<tr class="memdesc:a4bcd74144a8746bb66af098dbd233093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction virtuelle de fermeture.  <a href="#a4bcd74144a8746bb66af098dbd233093"></a><br/></td></tr>
+<tr class="memitem:acce3e5c2f7b69672c4e7d5c62842373d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#acce3e5c2f7b69672c4e7d5c62842373d">setPosition</a> (unsigned short newPosition)</td></tr>
+<tr class="memdesc:acce3e5c2f7b69672c4e7d5c62842373d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction virtuelle de modification de position.  <a href="#acce3e5c2f7b69672c4e7d5c62842373d"></a><br/></td></tr>
+<tr class="memitem:a8ea35610e42eee3cb78124a3e8f4cf04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a8ea35610e42eee3cb78124a3e8f4cf04">setDeviceVS</a> (char *_device)</td></tr>
+<tr class="memdesc:a8ea35610e42eee3cb78124a3e8f4cf04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction virtuelle de modification de la vitesse.  <a href="#a8ea35610e42eee3cb78124a3e8f4cf04"></a><br/></td></tr>
+<tr class="memitem:a4bac032ccaa4dcfc170e43584fe2c8ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a4bac032ccaa4dcfc170e43584fe2c8ea">setSpeedVS</a> (int _speed)</td></tr>
+<tr class="memdesc:a4bac032ccaa4dcfc170e43584fe2c8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction permettant de changer la vitesse de la voie série.  <a href="#a4bac032ccaa4dcfc170e43584fe2c8ea"></a><br/></td></tr>
+<tr class="memitem:aa2b1ed640e74530da304803f6bfa125d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#aa2b1ed640e74530da304803f6bfa125d">ecrireTrame</a> (<a class="el" href="classServoMoteurRC.html#aae3c98bfed3174d123c14bb932c49abd">TacheRealisee</a> newTache, unsigned short valeur)</td></tr>
+<tr class="memdesc:aa2b1ed640e74530da304803f6bfa125d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction permettant de réaliser la trame de commande.  <a href="#aa2b1ed640e74530da304803f6bfa125d"></a><br/></td></tr>
+<tr class="memitem:addf597952023c130e4c93df75549b40a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#addf597952023c130e4c93df75549b40a">AfficherTrame</a> ()</td></tr>
+<tr class="memdesc:addf597952023c130e4c93df75549b40a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction permettant de lire la trame envoyée.  <a href="#addf597952023c130e4c93df75549b40a"></a><br/></td></tr>
+<tr class="inherit_header pub_methods_classServoMoteur"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classServoMoteur')"><img src="closed.png" alt="-"/>&nbsp;Fonctions membres publiques inherited from <a class="el" href="classServoMoteur.html">ServoMoteur</a></td></tr>
+<tr class="memitem:a1f694db40bea2beb456a61293a64831d inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a1f694db40bea2beb456a61293a64831d">ServoMoteur</a> ()</td></tr>
+<tr class="memdesc:a1f694db40bea2beb456a61293a64831d inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de la classe <a class="el" href="classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet.">ServoMoteur</a>.  <a href="#a1f694db40bea2beb456a61293a64831d"></a><br/></td></tr>
+<tr class="memitem:a600cb1978fae20eaf59c575f602907f3 inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a600cb1978fae20eaf59c575f602907f3">~ServoMoteur</a> ()</td></tr>
+<tr class="memdesc:a600cb1978fae20eaf59c575f602907f3 inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur de la classe <a class="el" href="classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet.">ServoMoteur</a>.  <a href="#a600cb1978fae20eaf59c575f602907f3"></a><br/></td></tr>
+<tr class="memitem:a8ad922ca9937df81428762a6e1e1950f inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a8ad922ca9937df81428762a6e1e1950f">setAcceleration</a> (int m_acceleration)=0</td></tr>
+<tr class="memdesc:a8ad922ca9937df81428762a6e1e1950f inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode setAccélération virtuelle pure.  <a href="#a8ad922ca9937df81428762a6e1e1950f"></a><br/></td></tr>
+<tr class="memitem:a162d9941254227987386244e2c44bd4c inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a162d9941254227987386244e2c44bd4c">setVitesse</a> (int m_vitesse)=0</td></tr>
+<tr class="memdesc:a162d9941254227987386244e2c44bd4c inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode setVitesse virtuelle pure.  <a href="#a162d9941254227987386244e2c44bd4c"></a><br/></td></tr>
+<tr class="memitem:a5255abd4328f5fea2afacc005dca9008 inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a5255abd4328f5fea2afacc005dca9008">setPosition</a> (int m_cible)=0</td></tr>
+<tr class="memdesc:a5255abd4328f5fea2afacc005dca9008 inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode setPosition virtuelle pure.  <a href="#a5255abd4328f5fea2afacc005dca9008"></a><br/></td></tr>
+<tr class="memitem:a447dbc1161fdf98589612b67a3948f28 inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a447dbc1161fdf98589612b67a3948f28">getAcceleration</a> ()=0</td></tr>
+<tr class="memdesc:a447dbc1161fdf98589612b67a3948f28 inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode getAcceleration virtuelle pure.  <a href="#a447dbc1161fdf98589612b67a3948f28"></a><br/></td></tr>
+<tr class="memitem:ac567335c4384eb85f75dec8259a7baab inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#ac567335c4384eb85f75dec8259a7baab">getVitesse</a> ()=0</td></tr>
+<tr class="memdesc:ac567335c4384eb85f75dec8259a7baab inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode getVitesse virtuelle pure.  <a href="#ac567335c4384eb85f75dec8259a7baab"></a><br/></td></tr>
+<tr class="memitem:a939a24aaebcd7d0cb180f9d1de579924 inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a939a24aaebcd7d0cb180f9d1de579924">getPosition</a> ()=0</td></tr>
+<tr class="memdesc:a939a24aaebcd7d0cb180f9d1de579924 inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode getPostion virtuelle pure.  <a href="#a939a24aaebcd7d0cb180f9d1de579924"></a><br/></td></tr>
+<tr class="memitem:ace9c74a222771465b675ce9a7d466e08 inherit pub_methods_classServoMoteur"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#ace9c74a222771465b675ce9a7d466e08">init</a> ()=0</td></tr>
+<tr class="memdesc:ace9c74a222771465b675ce9a7d466e08 inherit pub_methods_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode init virtuelle pure.  <a href="#ace9c74a222771465b675ce9a7d466e08"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:adebeee41eb32f60680299962a7847799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#adebeee41eb32f60680299962a7847799">valeurTrame</a> (unsigned short newValeur)</td></tr>
+<tr class="memdesc:adebeee41eb32f60680299962a7847799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode permettant de modifier la valeur dans la trame.  <a href="#adebeee41eb32f60680299962a7847799"></a><br/></td></tr>
+<tr class="memitem:a8e2a4726153bed3282b22c362990c824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a8e2a4726153bed3282b22c362990c824">envoyerTrame</a> ()</td></tr>
+<tr class="memdesc:a8e2a4726153bed3282b22c362990c824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode permettant d'envoyer la trame sur la voie série.  <a href="#a8e2a4726153bed3282b22c362990c824"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:afd6635a77a21249f6fb765c1e7f33e58"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#afd6635a77a21249f6fb765c1e7f33e58">erreur</a></td></tr>
+<tr class="memdesc:afd6635a77a21249f6fb765c1e7f33e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chaîne permettant de connaître l'erreur retournée.  <a href="#afd6635a77a21249f6fb765c1e7f33e58"></a><br/></td></tr>
+<tr class="memitem:a69d6df74f4ed800c0cf828e6a00c457b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a69d6df74f4ed800c0cf828e6a00c457b">ID</a></td></tr>
+<tr class="memdesc:a69d6df74f4ed800c0cf828e6a00c457b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entier qui permet d'identifier un servomoteur.  <a href="#a69d6df74f4ed800c0cf828e6a00c457b"></a><br/></td></tr>
+<tr class="memitem:a522edd75de75d3c454b1f47a0f427bb0"><td class="memItemLeft" align="right" valign="top">vector&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a522edd75de75d3c454b1f47a0f427bb0">trame</a></td></tr>
+<tr class="memdesc:a522edd75de75d3c454b1f47a0f427bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vecteur permettant de réaliser notre trame.  <a href="#a522edd75de75d3c454b1f47a0f427bb0"></a><br/></td></tr>
+<tr class="memitem:afd5c70071c8174c2576bb40fda545bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classserialib.html">serialib</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#afd5c70071c8174c2576bb40fda545bf0">VS</a></td></tr>
+<tr class="memdesc:afd5c70071c8174c2576bb40fda545bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Création d'un objet serialib -&gt; voie série.  <a href="#afd5c70071c8174c2576bb40fda545bf0"></a><br/></td></tr>
+<tr class="memitem:a04dbffaa27b9c0bef47b8c51fd0c1b49"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a04dbffaa27b9c0bef47b8c51fd0c1b49">device</a></td></tr>
+<tr class="memdesc:a04dbffaa27b9c0bef47b8c51fd0c1b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit le port utilisé pour la voie série.  <a href="#a04dbffaa27b9c0bef47b8c51fd0c1b49"></a><br/></td></tr>
+<tr class="memitem:a336f9fa09967946c39bb15446a076044"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteurRC.html#a336f9fa09967946c39bb15446a076044">speed</a></td></tr>
+<tr class="memdesc:a336f9fa09967946c39bb15446a076044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit la vitesse de la voix série.  <a href="#a336f9fa09967946c39bb15446a076044"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classServoMoteur"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classServoMoteur')"><img src="closed.png" alt="-"/>&nbsp;Attributs protégés inherited from <a class="el" href="classServoMoteur.html">ServoMoteur</a></td></tr>
+<tr class="memitem:a30d8f68af0f788ad69993cdac5371b2c inherit pro_attribs_classServoMoteur"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a30d8f68af0f788ad69993cdac5371b2c">acceleration</a></td></tr>
+<tr class="memdesc:a30d8f68af0f788ad69993cdac5371b2c inherit pro_attribs_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entier utilisé pour l'acceleration.  <a href="#a30d8f68af0f788ad69993cdac5371b2c"></a><br/></td></tr>
+<tr class="memitem:a781e8a02fa7aa0df04e5a33d8aba4449 inherit pro_attribs_classServoMoteur"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a781e8a02fa7aa0df04e5a33d8aba4449">vitesse</a></td></tr>
+<tr class="memdesc:a781e8a02fa7aa0df04e5a33d8aba4449 inherit pro_attribs_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entier utilisé pour la vitesse.  <a href="#a781e8a02fa7aa0df04e5a33d8aba4449"></a><br/></td></tr>
+<tr class="memitem:a64413a0e5adce2f3a6854fd5d7274197 inherit pro_attribs_classServoMoteur"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a64413a0e5adce2f3a6854fd5d7274197">position</a></td></tr>
+<tr class="memdesc:a64413a0e5adce2f3a6854fd5d7274197 inherit pro_attribs_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entier utilisé pour la position.  <a href="#a64413a0e5adce2f3a6854fd5d7274197"></a><br/></td></tr>
+<tr class="memitem:a6ab2e73a83c5d31e087adb72949a77c8 inherit pro_attribs_classServoMoteur"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a6ab2e73a83c5d31e087adb72949a77c8">cible</a></td></tr>
+<tr class="memdesc:a6ab2e73a83c5d31e087adb72949a77c8 inherit pro_attribs_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entier utilisé pour la cible.  <a href="#a6ab2e73a83c5d31e087adb72949a77c8"></a><br/></td></tr>
+<tr class="memitem:a99f6969322803f13c0980eb8054d7800 inherit pro_attribs_classServoMoteur"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServoMoteur.html#a99f6969322803f13c0980eb8054d7800">ID</a></td></tr>
+<tr class="memdesc:a99f6969322803f13c0980eb8054d7800 inherit pro_attribs_classServoMoteur"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entier d'identification des servomoteurs.  <a href="#a99f6969322803f13c0980eb8054d7800"></a><br/></td></tr>
+</table>
+<a name="details" id="details"></a><h2>Description détaillée</h2>
+<div class="textblock"><p>Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d'impulsions) </p>
+<dl class="section version"><dt>Version</dt><dd>1.00 </dd></dl>
+</div><h2>Documentation des énumérations membres</h2>
+<a class="anchor" id="aae3c98bfed3174d123c14bb932c49abd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classServoMoteurRC.html#aae3c98bfed3174d123c14bb932c49abd">ServoMoteurRC::TacheRealisee</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Enumeration des fonctions realisables </p>
+
+</div>
+</div>
+<h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="af4da1bb127225d5a20032738ab385c94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServoMoteurRC::ServoMoteurRC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ce constructeur initialise les attributs de l'objet <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="aceceadc72aed2799f29085e67b8f4df7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServoMoteurRC::ServoMoteurRC </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructeur de la classe <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a> avec le numéro du servomoteur souhaité </p>
+<p>Ce constructeur initialise les attributs de l'objet <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a></p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ID</td><td>Identifiant d'un servomoteur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae4410b4eb6409601c0fed6a901ab7b13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServoMoteurRC::~ServoMoteurRC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructeur de la classe <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a>. </p>
+<p>Ce destructeur supprime un objet <a class="el" href="classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion...">ServoMoteurRC</a> </p>
+
+</div>
+</div>
+<h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="addf597952023c130e4c93df75549b40a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ServoMoteurRC::AfficherTrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction permettant de lire la trame envoyée. </p>
+<p>Cette fonction permet de debuger, et de vérifier l'exactitude de la trame envoyée au servomoteur </p>
+
+</div>
+</div>
+<a class="anchor" id="a4bcd74144a8746bb66af098dbd233093"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ServoMoteurRC::arret </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fonction virtuelle de fermeture. </p>
+<p>Cette fonction permet la fermeture de la voie série </p>
+
+<p>Implémente <a class="el" href="classServoMoteur.html#a0503c96364831e955aed5406d95e0faf">ServoMoteur</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa2b1ed640e74530da304803f6bfa125d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServoMoteurRC::ecrireTrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classServoMoteurRC.html#aae3c98bfed3174d123c14bb932c49abd">TacheRealisee</a>&#160;</td>
+          <td class="paramname"><em>newTache</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>valeur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction permettant de réaliser la trame de commande. </p>
+<p>Cette fonction permet de réaliser la trame de commande des servomoteurs</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">newTache</td><td>Ce parametre est la nouvelle tache à effectuer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">valeur</td><td>Ce parametre est la nouvelle valeur à communiquer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8e2a4726153bed3282b22c362990c824"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServoMoteurRC::envoyerTrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Méthode permettant d'envoyer la trame sur la voie série. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0891d3631f2e2eaf1a8010183fd413e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ServoMoteurRC::init </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fileDes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fonction virtuelle d'initialisation. </p>
+<p>Cette fonction permet l'initialisation des servomoteurs et l'ouverture de la voie série</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">New_Sexe</td><td>Ce parametre est un std::string FEMME pour une voix de femme par defaut la voix est sur HOMME </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ea35610e42eee3cb78124a3e8f4cf04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServoMoteurRC::setDeviceVS </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>_device</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction virtuelle de modification de la vitesse. </p>
+<p>Cette fonction permet de modifier la vitesse d'un servomoteur</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">newVitesse</td><td>Ce parametre est la valeur souhaitée pour la vitesse de deplacement </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acce3e5c2f7b69672c4e7d5c62842373d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int ServoMoteurRC::setPosition </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>newPosition</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fonction virtuelle de modification de position. </p>
+<p>Cette fonction permet de modifier la position d'un servomoteur</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">newPosition</td><td>Ce parametre est la valeur souhaitée pour la position à atteindre </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4bac032ccaa4dcfc170e43584fe2c8ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServoMoteurRC::setSpeedVS </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction permettant de changer la vitesse de la voie série. </p>
+<p>Cette fonction permet de modifier la vitesse de la voie série</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_speed</td><td>Ce parametre est la nouvelle vitesse à appliquer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adebeee41eb32f60680299962a7847799"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServoMoteurRC::valeurTrame </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>newValeur</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Méthode permettant de modifier la valeur dans la trame. </p>
+
+</div>
+</div>
+<h2>Documentation des données membres</h2>
+<a class="anchor" id="a04dbffaa27b9c0bef47b8c51fd0c1b49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* ServoMoteurRC::device</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Définit le port utilisé pour la voie série. </p>
+
+</div>
+</div>
+<a class="anchor" id="afd6635a77a21249f6fb765c1e7f33e58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ServoMoteurRC::erreur</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Chaîne permettant de connaître l'erreur retournée. </p>
+
+</div>
+</div>
+<a class="anchor" id="a69d6df74f4ed800c0cf828e6a00c457b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ServoMoteurRC::ID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entier qui permet d'identifier un servomoteur. </p>
+
+</div>
+</div>
+<a class="anchor" id="a336f9fa09967946c39bb15446a076044"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ServoMoteurRC::speed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Définit la vitesse de la voix série. </p>
+
+</div>
+</div>
+<a class="anchor" id="a522edd75de75d3c454b1f47a0f427bb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt;unsigned char&gt; ServoMoteurRC::trame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vecteur permettant de réaliser notre trame. </p>
+
+</div>
+</div>
+<a class="anchor" id="afd5c70071c8174c2576bb40fda545bf0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classserialib.html">serialib</a>* ServoMoteurRC::VS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Création d'un objet serialib -&gt; voie série. </p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="ServoMoteurRC_8h_source.html">ServoMoteurRC.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche Juin 14 2015 18:38:08 pour Tête Robotisée Josiane par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>

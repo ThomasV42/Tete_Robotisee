@@ -1,0 +1,6 @@
+<map id="Machoire" name="Machoire">
+<area shape="rect" id="node2" href="$classServoMoteurRC.html" title="Classe permettant le controle des servomoteurs fonctionnant en MLI Modulation par largeur d&#39;impulsion..." alt="" coords="85,385,229,730"/>
+<area shape="rect" id="node4" href="$classServoMoteur.html" title="Classe mère virtuel de gestion des différents servomoteurs du projet." alt="" coords="5,6,136,317"/>
+<area shape="rect" id="node6" href="$classserialib.html" title="Classe utilisé pour la voie série." alt="" coords="160,15,331,308"/>
+<area shape="rect" id="node8" href="$classCVoix.html" title="Classe permettant le TextToSpeech." alt="" coords="253,454,357,661"/>
+</map>
